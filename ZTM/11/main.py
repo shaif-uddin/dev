@@ -1,3 +1,4 @@
 import utility
-import shopping.shoppingCart
-print(shopping.shoppingCart.buy('apple'))
+from  shopping.shoppingCart import buy
+print(buy('apple'))
+print(buy('Orange'))
